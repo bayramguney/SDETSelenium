@@ -20,6 +20,7 @@ public class HandleMultipleDropdown_8 {
         Select industryDrp = new Select(driver.findElement(By.name("Industry")));
         Select countryDrp = new Select(driver.findElement(By.name("Country")));
 
+
         //Approach 2
         WebElement noOfEmpsEle = driver.findElement(By.name("NoOfEmployees"));
         selectOptionFromDropdown(noOfEmpsEle, "16 - 20");

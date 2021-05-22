@@ -5,7 +5,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-// SDET Course Part 3
+
 public class LaunchBrowser_3 {
 
     public static void main(String[] args) {

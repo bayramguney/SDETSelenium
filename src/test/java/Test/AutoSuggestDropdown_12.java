@@ -25,6 +25,7 @@ public class AutoSuggestDropdown_12 {
         for (WebElement each:list) {
             if(each.getText().contains("testing")){
                 each.click();
+                System.out.println("driver.getTitle() = " + driver.getTitle());
                 break;
             }
         }
